@@ -38,6 +38,12 @@ All the results indicate that we can trust the statistical inferences and determ
 
 ## 4. Business Recommendation
 
-#### Develop Newcomers segment
-- Implement **onboarding campaigns** to introduce them to the brand’s value.
+The A/B test results showed that **Copy B generated the highest sales revenue**, reaching $247, compared to Copy A with $178 and Copy C with $157. Given this outcome, Copies A and C will be discarded in favor of Copy B. We se the results in the following plot:
 
+![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/e42e7ca58f09e5f91136335ef20767f213bb8be5/img/results.JPG)
+
+Based on this result, the **recommendations** are:
+- **Implement copy B permanently**: Given its superior performance, Copy B should be set as the default promotional message across all relevant pages.
+- **Monitor performance continuously**: Even though Copy B outperformed the other versions, ongoing monitoring and analysis should be conducted to ensure its effectiveness over time.
+- **Optimize other website elements**: Since promotional copy impacts sales, additional A/B tests should be conducted on other website components, such as call-to-action buttons, images, and layout.
+- **Personalize copy for different audiences**: Further segmentation and testing should be explored to tailor promotional messages to different customer segments and preferences.
