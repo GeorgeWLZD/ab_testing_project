@@ -4,19 +4,17 @@
 
 Zapoos, a leading ecommerce company in fashion and footwear sales, has experienced a **decline in sales** over the past few months. To reverse this trend, the company is exploring various strategies to improve visitor-to-customer conversion rates.
 
-Web traffic metrics indicate that users visit the site, but the conversion rate has decreased. It has been identified that **promotional copy** may be influencing purchasing decisions. Zapoos believes that optimizing these messages through A/B testing can be an effective strategy to improve sales. In this scenario we set two goals, first we have the **business goal** which is increase sales, and second the **experiment's goal** is to determine which copy generates higher sales.
-
-![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/64e7dd69b1233aff1a08be85cf06a51d6db0ae49/img/dropping.JPG)
+Web traffic metrics indicate that users visit the site, but the conversion rate has decreased. It has been identified that **promotional copy** may be influencing purchasing decisions. Zapoos believes that optimizing these messages through A/B testing can be an effective strategy to improve sales, and it's required that this testing must be carried out inmediately. In this scenario we set two goals, first we have the **business goal** which is increase sales, and second the **experiment's goal** is to determine which copy generates higher sales.
 
 ## 2. Experiment Design
 
-This is the dataset with 8 variables about the customer consumption. A sample with 1000 rows can be found in the folder called *data*. This data was preprocessed in order to develop the clustering model.
+An A/B experiment will be conducted on the Zapoos website, where different versions of **promotional copies** will be tested. Three variations of copys with different approaches will be defined and shown randomly to different user groups, these are the versions:
 
-![image alt]()
+![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/9ba9ef66524f9c86b41e07d4c0d3b23097d1764c/img/copys.JPG)
 
-As we see the total dataset has 525461 rows, and we have categorical and numerical data.
+The metric that will define which copys is better is **sales**. Considering the statistical power ($\beta$ = 0.8), a **stratified sampling** was carried out according to the 3 purchasing times, obtaining a total sample of **738 users** who purchased at least one product in the website, in the table below we can see the distribution of time and treatment in the sample:
 
-![image alt]()
+![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/88add6c7d2c8e55d0d28b974642ba878266e4b12/img/sampling.JPG)
 
 ## 3. Statistical Results
 
