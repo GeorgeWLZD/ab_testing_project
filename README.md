@@ -6,7 +6,7 @@ Zapoos, a leading ecommerce company in fashion and footwear sales, has experienc
 
 Web traffic metrics indicate that users visit the site, but the conversion rate has decreased. It has been identified that promotional copy may be influencing purchasing decisions. Zapoos believes that optimizing these messages through A/B testing can be an effective strategy to improve sales. In this scenario we set two goals, first we have the **business goal** which is increase sales, and second the **experiment's goal** is to detemrine which copy generates higher conversion rate.
 
-![image alt]()
+![image alt](https://github.com/GeorgeWLZD/ab_testing_project/blob/48ad57e937b6e55839d70063a45306bfc0037d78/img/dropping.jpg)
 
 ## 2. Experiment Design
 
